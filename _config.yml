@@ -26,6 +26,8 @@ search: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
@@ -35,7 +37,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-  - assets/js
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
