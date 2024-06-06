@@ -1,11 +1,11 @@
 main:
-  - title: "Projects"
-    url: /posts/
+  - title: "About Me"
+     url: "#about-me"
   # - title: "Categories"
   #   url: /categories/
   # - title: "Tags"
   #   url: /tags/
-  - title: "About"
-    url: _pages/about.md
+  - title: "Projects"
+    url: "#projects"
   - title: "Contact Me"
-    url: /contact/
+    url: "#contact-me"
