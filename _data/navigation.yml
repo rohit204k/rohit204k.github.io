@@ -6,6 +6,6 @@ main:
   # - title: "Tags"
   #   url: /tags/
   - title: "Projects"
-    url: "#projects"
+     url: "#projects"
   - title: "Contact Me"
-    url: "#contact-me"
+     url: "#contact-me"
