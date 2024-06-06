@@ -77,6 +77,9 @@ author:
     - label: "LeetCode"
       icon: "fab fa-fw fa-link"
       url: "https://leetcode.com/u/rohit204k/"
+    - label: "Resume"
+      icon: "fa-solid fa-file"
+      url: "/assets/files/resume.pdf"
 
 footer:
   links:
@@ -89,6 +92,9 @@ footer:
     - label: "LeetCode"
       icon: "fas fa-fw fa-link"
       url: "https://leetcode.com/u/rohit204k/"
+    - label: "Resume"
+      icon: "fa-solid fa-file"
+      url: "/assets/files/resume.pdf"
 
 # defaults:
 #   # _posts
