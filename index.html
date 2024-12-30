@@ -1,49 +1,61 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div id="about-me">
-    <h1>About Me</h1>
-    <p>Hey there 👋!</p>
-  
-    <p>I’m Rohit Gundakalli, a passionate and dedicated Computer Science graduate student at the University of Massachusetts Amherst. With a strong foundation in areas like Data Structures, Algorithms, Machine Learning, and Cloud Systems, I've also gained hands-on experience in software development and project management through my roles at Wow Labz Pvt. Ltd. and Ellucian.</p>
-  
-    <p>Currently pursuing my Master's, I'm deeply immersed in cutting-edge topics like Natural Language Processing, Reinforcement Learning, and Distributed Systems, aiming to contribute meaningfully to the tech industry's future. My proficiency spans a range of technologies including Python, Kafka, AWS, and more, and I'm always eager to delve into new tools and methodologies.</p>
-  
-    <p>Let's connect and explore how we can innovate together!</p>
-  </div>
-  
-  
-  <div id="projects">
-    <h1>Projects</h1>
-    <ul>
-      <li>
-        <a href="https://github.com/varunsdevang/QuoteMI" target="_blank">
-            Quote Classification and Interpretation
-        </a>
-        <p>Fine-tuned state-of-the-art Transformer models like BERT, GPT-2, and T5 for multi-label classification of quotes. Explored various prompting techniques on T5 and Gemma models to enhance the quote interpretation task. Conducted extensive analysis of the results, improving the accuracy and efficiency of the models. This project showcased my expertise in natural language processing and machine learning.</p>
-      </li>
-      <li>
-        <a href="https://github.com/rohit204k/advanced_algorithms" target="_blank">
-          Advanced Algorithms Implementation (COMPSCI-611 - Spring 2024)
-        </a>
-        <p>This repository contains efficient implementations of advanced algorithms explored during the COMPSCI611 course, with a focus on optimizing time complexity. The algorithms cover a range of topics, including sorting (Merge Sort), matrix operations (Strassen's Algorithm for Matrix Multiplication), computational geometry (Closest Pair of Points), polynomial operations, graph theory (Minimum Spanning Trees with Kruskal's and Prim's algorithms, Bipartite Graph Matching), dynamic programming techniques (Knapsack, Floyd-Warshall, Dijkstra's), and network flow optimization (Ford-Fulkerson). Each implementation demonstrates key concepts in algorithm design, such as divide-and-conquer, greedy methods, and dynamic programming, ensuring optimal performance.</p>
-      </li>
-      <!-- <li>
-        <a target="_blank">
-            Stock Exchange Application
-        </a>
-        <p>Description of Project 2</p>
-      </li> -->
-      <!-- Add more projects as needed -->
-    </ul>
-  </div>
-  
-  <div id="contact-me">
-    <h1>Contact Me</h1>
-    <p>You can reach me at <a href="mailto:gundakallirohit@gmail.com">gundakallirohit@gmail.com</a>.</p>
-  </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit K Gundakalli</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="assets/images/bio-photo.png" alt="Profile Picture" class="profile-pic">
+                <h2>Rohit Kadappa Gundakalli</h2>
+                <p>To know what you know and what you do not know, that is true knowledge. <br> ~ Confucius</p>
+            </div>
+            <div class="links">
+                <a href="https://linkedin.com/in/rohit-gundakalli" target="_blank">
+                    <i class="fab fa-fw fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/rohit204k" target="_blank">
+                    <i class="fab fa-fw fa-github"></i> GitHub
+                </a>
+                <a href="https://leetcode.com/rohit204k" target="_blank">
+                    <i class="fas fa-fw fa-link"></i> LeetCode
+                </a>
+                <a href="assets/files/resume.pdf" target="_blank">
+                    <i class="fa-solid fa-file"></i> Resume
+                </a>
+                <a href="mailto:rgundakalli@umass.edu" target="_blank">
+                    <i class="fa fa-envelope"></i> Email
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" onclick="loadContent('experience')">Experience</a></li>
+                    <li><a href="#" onclick="loadContent('education')">Education</a></li>
+                    <li><a href="#" onclick="loadContent('projects')">Projects</a></li>
+                    <li><a href="#" onclick="loadContent('about')">About</a></li>
+                </ul>
+            </nav>
+
+            <!-- Content Section to Load External Files -->
+            <section id="content-section">
+                <!-- This is where content will be dynamically loaded -->
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
