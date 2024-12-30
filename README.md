@@ -6,8 +6,15 @@
 
 Hey there 👋!
 
-I’m Rohit Gundakalli, a passionate and dedicated Computer Science graduate student at the University of Massachusetts Amherst. With a strong foundation in areas like Data Structures, Algorithms, Machine Learning, and Cloud Systems, I've also gained hands-on experience in software development and project management through my roles at Wow Labz Pvt. Ltd. and Ellucian.
+I’m Rohit Kadappa Gundakalli, a recent graduate with a Master’s in Computer Science from the University
+of Massachusetts Amherst. Throughout my academic journey, I developed a solid foundation in core areas
+such as Data Structures, Algorithms, Machine Learning, and Cloud Systems. I've also gained practical
+experience in software development, working on innovative projects and enhancing my technical skills at
+Wow Labz Pvt. Ltd. and Ellucian.
 
-Currently pursuing my Master's, I'm deeply immersed in cutting-edge topics like Natural Language Processing, Reinforcement Learning, and Distributed Systems, aiming to contribute meaningfully to the tech industry's future. My proficiency spans a range of technologies including Python, Kafka, AWS, and more, and I'm always eager to delve into new tools and methodologies. 
+During my time at UMass, I specialized in advanced topics like Natural Language Processing, Reinforcement
+Learning, and Distributed Systems. I’m passionate about leveraging cutting-edge technologies, including
+Python, Kafka, and AWS, to drive impactful solutions.
 
-Let's connect and explore how we can innovate together!
+I’m eager to contribute to the tech industry and collaborate on projects that push the boundaries of
+innovation. Let’s connect and explore how we can work together to shape the future of technology!
