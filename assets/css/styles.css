@@ -11,17 +11,45 @@ body {
 .container {
     display: flex;
     width: 100%;
+    flex-wrap: nowrap;
 }
 
 /* Sidebar */
 .sidebar {
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
     background-color: #dde7dd;
     padding: 20px;
-    width: 250px;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar .profile {
+    text-align: center;
+}
+
+.sidebar .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.sidebar .links a {
+    display: block;
+    text-decoration: none;
+    
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar .links a i {
+    margin-right: 8px;
 }
 
 .profile {
@@ -72,6 +100,7 @@ body {
     flex: 1;
     overflow-y: auto;
     background-color: #ffffff;
+    box-sizing: border-box;
 }
 
 /* Navbar */
@@ -80,6 +109,7 @@ body {
     padding: 12px 20px;
     font-family: 'Poppins', sans-serif;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .navbar ul {
@@ -89,10 +119,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .navbar ul li {
-    display: inline;
+    /* display: inline; */
     margin: 0 15px;
 }
 
@@ -127,7 +159,7 @@ body {
 
 /* Section */
 section {
-    padding: 20px;
+    padding-left: 20px;
 }
 
 section h1 {
@@ -140,6 +172,15 @@ section h1 {
 }
 
 /* Cards */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 .card {
     background-color: #ffffff;
     padding: 20px;
@@ -157,6 +198,7 @@ section h1 {
 .card h2 {
     margin-top: 0;
     color: #6a8f6b;
+    font-size: 1.5rem;
 }
 
 .card p {
@@ -173,6 +215,7 @@ section h1 {
 
 .card ul {
     padding-left: 40px;
+    margin: 10px 0;
 }
 
 .card ul li {
@@ -242,22 +285,67 @@ ul li {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
-    .card {
-        width: 90%;
-        padding: 20px;
+@media screen and (max-width: 1024px) {
+    .navbar ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    #about h1 {
-        font-size: 2rem;
+    .navbar ul li {
+        margin: 10px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+    
+@media screen and (max-width: 480px) {
+    .links a {
+        font-size: 0.9rem;
+    }
+
+    .navbar ul li {
+        margin: 5px;
+    }
+
+    .navbar ul li a {
+        font-size: 0.9rem;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust Profile and Links for mobile view */
+    .sidebar .profile {
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .sidebar .links a {
-        font-size: 1.1rem;
-        padding: 8px 0;
+        padding: 10px;
+        text-align: center;
     }
 
-    .sidebar .links a i {
-        margin-right: 12px;
+    /* Make Sidebar responsive with a smaller width on mobile */
+    .sidebar {
+        width: 200px;
+        padding: 15px;
+    }
+
+    /* Hide the profile pic on mobile if needed */
+    .sidebar .profile-pic {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Content section adjusts margin for the sidebar */
+    #content-section {
+        transition: margin-left 0.3s ease;
     }
 }
