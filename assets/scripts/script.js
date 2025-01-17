@@ -1,8 +1,9 @@
 // Function to load the content into the section
 function loadContent(page) {
     const contentSection = document.getElementById('content-section');
-    contentSection.innerHTML = '<p>Loading...</p>'; // Add a loading message
 
+    // Clear existing content
+    contentSection.innerHTML = '';
 
     // Fetch and load the respective HTML file
     fetch('assets/pages/' + page + '.html')
