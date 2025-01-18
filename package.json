@@ -1,4 +1,5 @@
 {
+  "homepage":"https://rohit204k.github.io",
   "name": "rohit204k.github.io",
   "private": true,
   "version": "0.0.0",
@@ -8,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
