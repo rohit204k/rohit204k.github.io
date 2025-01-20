@@ -1,0 +1,30 @@
+[
+  {
+    "title": "UniThrift - University Buy Sell Application",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["HTML", "CSS", "JavaScript", "Python", "MongoDB", "AWS", "SendGrid"],
+    "source": "https://github.com/rohit204k/UniThrift_Frontend"
+  },
+  {
+    "title": "Quote Classification and Interpretation",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Python", "Huggingface", "BERT", "T5", "GPT-2", "Gemma", "PyTorch"],
+    "source": "https://github.com/varunsdevang/QuoteMI"
+  },
+  {
+    "title": "Advanced Algorithms Implementation",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Python"],
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "CatchUp - Chat Application",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["MongoDB", "Express", "React", "Node"],
+    "source": "https://www.github.com"
+  }
+]
