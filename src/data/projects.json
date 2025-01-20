@@ -2,29 +2,36 @@
   {
     "title": "UniThrift - University Buy Sell Application",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "University buy sell application for purchasing and selling preowned items.",
     "skills": ["HTML", "CSS", "JavaScript", "Python", "MongoDB", "AWS", "SendGrid"],
     "source": "https://github.com/rohit204k/UniThrift_Frontend"
   },
   {
     "title": "Quote Classification and Interpretation",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "LLM project to classify quotes and interpret their meaning.",
     "skills": ["Python", "Huggingface", "BERT", "T5", "GPT-2", "Gemma", "PyTorch"],
     "source": "https://github.com/varunsdevang/QuoteMI"
   },
   {
     "title": "Advanced Algorithms Implementation",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "Algorithm implementation of concepts studied in COMPSCI-611",
     "skills": ["Python"],
-    "source": "https://www.github.com"
+    "source": "https://github.com/rohit204k/advanced_algorithms"
   },
   {
     "title": "CatchUp - Chat Application",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "Chat application developed using MERN stack",
     "skills": ["MongoDB", "Express", "React", "Node"],
-    "source": "https://www.github.com"
+    "source": "https://github.com/rohit204k/CatchUp"
+  }
+  {
+    "title": "React Portfolio App",
+    "imageSrc": "projects/project.png",
+    "description": "Portfolio website",
+    "skills": ["MongoDB", "Express", "React", "Node"],
+    "source": "https://github.com/rohit204k/rohit204k.github.io"
   }
 ]
