@@ -26,7 +26,7 @@
     "description": "Chat application developed using MERN stack",
     "skills": ["MongoDB", "Express", "React", "Node"],
     "source": "https://github.com/rohit204k/CatchUp"
-  }
+  },
   {
     "title": "React Portfolio App",
     "imageSrc": "projects/project.png",
