@@ -27,7 +27,7 @@ export const About = () => {
                     </li>
                 </ul>
                 </div>
-                <a className={styles.resumeBtn} target="_blank" href={getFile('resume.pdf')}>Resume</a>
+                <a className={styles.resumeBtn} target="_blank" href={getFile('Rohit_K_G_Resume.pdf')}>Resume</a>
             </div>
         </section>
     )
