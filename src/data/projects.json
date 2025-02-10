@@ -28,7 +28,14 @@
     "source": "https://github.com/rohit204k/CatchUp"
   },
   {
-    "title": "React Portfolio App",
+    "title": "Expense Tracker Application",
+    "imageSrc": "projects/project.png",
+    "description": "Expense tracking application",
+    "skills": ["ClojureScript", "Reagent", "Python", "MongoDB"],
+    "source": "https://github.com/rohit204k/expense-tracker"
+  },
+  {
+    "title": "React Portfolio",
     "imageSrc": "projects/project.png",
     "description": "Portfolio website",
     "skills": ["MongoDB", "Express", "React", "Node"],
